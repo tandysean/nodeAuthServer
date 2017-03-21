@@ -1,5 +1,5 @@
 # nodeAuthServer
-A extensible node authentication service using JSON Web Tokens and BCRYPT that can easily be dropped into any node project. Very easily adaptable and very secure.
+A extensible node authentication service using JSON Web Tokens and BCRYPT that can easily be dropped into any node project. Uses MongoDB for persistence. Very easily adaptable and very secure.
 
 Requires you to create a config.js file at root directory level which exports a secret key to Salt the encryption.
 <pre>
